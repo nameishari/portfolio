@@ -33,7 +33,7 @@ function Education() {
                     <p className="text-muted">
                       <ul>
                         {ed.details.map((d) => {
-                          return <li>{d}</li>;
+                          return <li key={d}>{d}</li>;
                         })}
                       </ul>
                     </p>

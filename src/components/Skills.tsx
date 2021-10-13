@@ -2,7 +2,6 @@ import React from "react";
 import { skills } from "../data/config";
 
 function Skills() {
-  console.log(Math.ceil(skills.length / 2));
   const skillsMiddleIndex = Math.ceil(skills.length / 2);
 
   const skillsLeft = skills.slice().splice(0, skillsMiddleIndex);

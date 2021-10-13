@@ -33,7 +33,7 @@ function Experience() {
                     <p className="text-muted">
                       <ul>
                         {ex.details.map((d) => {
-                          return <li>{d}</li>;
+                          return <li key={d}>{d}</li>;
                         })}
                         <li>
                           <b>Tech Stack: </b>
