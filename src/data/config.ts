@@ -41,9 +41,14 @@ export const experience = [
     designation: "Senior Full-Stack Engineer",
     url: "https://www.element.in/",
     details: [
-      "Developing multiple web applications for the customers, partners and operations.",
+      "Creating an Insurance as a Service Product with industry standard processes and tools.",
+      "Implementing scalable backend microservices to manage the lifecycle of a policy, including customer creation, policy creation and updation, renewals and document generation.",
+      "Developing a web portal to the partners to search for the customers and to view individual customer policies and payment details.",
+      "Creating a web application for the internal operations team to view and update a policy.",
+      "Implementing all the UI using micro-frontends architecture.",
+      "Creating end to end UI and API tests.",
     ],
-    techStack: "Microservices architecture, Java, Spring Boot, Postgresql, React.js, and AWS (DynamoDB, Fargate, SQS, SNS)",
+    techStack: "Java, Spring Ecosystem, Postgresql, Type Script, React.js, Ant Design, Cypress, Github Actions, Terraform and AWS (SQS, SNS, Lambda, DynamoDB, Fargate, XRay).",
     location: "Berlin, Germany",
     duration: "Jun 2021 - Present"
   },
@@ -53,11 +58,12 @@ export const experience = [
     url: "https://www.friday.de/",
     details: [
       "Rethinking insurance together with product managers, designers and domain experts.",
-      "Automating policy creation processes for motor insurance.",
-      "Driving the development of several features, including Pay-per-km tariff, Renewals and Add-on Purchasing.",
+      "Automating policy creation processes for car insurance.",
+      "Driven the development of several features, including Pay-per-km tariff, Cancellations, Registration, Renewals and Add-on Purchasing.",
       "Providing self-service features to the insurance holders.",
+      "Developed an in-memory price calculation service inorder to support the high incoming traffic from brokers.",
     ],
-    techStack: "Microservices architecture, Kotlin, Spring Boot, Micronaut, Postgresql, React.js, Kubernetes and Guidewire Policy Center",
+    techStack: "Kotlin, Java, Spring Ecosystem, Micronaut, Postgresql, Kubernetes, React.js and Guidewire Policycenter.",
     location: "Berlin, Germany",
     duration: "Apr 2020 - May 2021"
   },
@@ -66,14 +72,15 @@ export const experience = [
     designation: "Software Engineer",
     url: "https://www.auto1.com/",
     details: [
+      "Responsible for developing and maintaining a system of 16 company's backend microservices.",
       "Automated internal employees lifecycle processes: Onboarding, Offboarding, Probation end and 360 feedbacks.",
-      "Implemented a currency converter service (which stores daily currency rates from European Central Bank).",
-      "Created a search service by utilising powerful features that elastic search has to offer.",
+      "Implemented a currency converter service, which stores daily currency rates from the European Central Bank. This service is being used by all the other teams to fetch the currency conversions.",
+      "Involved in developing a vehicle search service which utilises all the powerful features that elastic search has to offer.",
       "Developed several E2E api tests to maintain the quality of delivered software "
     ],
     location: "Berlin, Germany",
     duration: "Aug 2018 - Mar 2020",
-    techStack: "Microservices Architecture, Java 10, Spring Ecosystem (Boot, Cloud, Data JPA, LDAP), Elastic Search, Postgresql and AWS"
+    techStack: "Java 11, Spring Ecosystem, Elastic Search, Postgresql, Cucumber, Rest Assured, Jenkins, Terraform and AWS (ECS, SQS)."
   },
   {
     company: "Verizon",
@@ -86,14 +93,14 @@ export const experience = [
     ],
     location: "Chennai, India",
     duration: "Jul 2017 - Aug 2018",
-    techStack: "Microservices Architecture, Java 8, Spring 5, Spring Boot, Microservices, Angular 5 and AWS"
+    techStack: "Java 8, Spring Boot, Angular 4, RabbitMQ and AWS."
   },
   {
     company: "Cognizant",
     designation: "Programmer Analyst",
     url: "https://www.cognizant.com/",
     details: [
-      "Developed data mining and analysis tool which is used to help risk managers with information about their policies and claims.",
+      "Played a crucial role in developing a data mining and analysis tool to help risk managers with information about their policies and claims.",
       "Ported and extended a legacy PL/SQL web app to modern technologies.",
     ],
     location: "Chennai, India",
